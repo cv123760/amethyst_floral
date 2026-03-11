@@ -1,1 +1,246 @@
+<!DOCTYPE html>
 
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#7311d4",
+                        "background-light": "#f7f6f8",
+                        "background-dark": "#191022",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.5rem", "lg": "1rem", "xl": "1.5rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<title>Amethyst Floral Studio | Artful Blooms for the Soul</title>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 antialiased transition-colors duration-300">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<!-- Navigation -->
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-primary/10 px-6 py-4 lg:px-20 sticky top-0 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md z-50">
+<div class="flex items-center gap-3 text-primary">
+<span class="material-symbols-outlined text-3xl">filter_vintage</span>
+<h2 class="text-slate-900 dark:text-slate-100 text-lg font-bold leading-tight tracking-tight uppercase">Amethyst</h2>
+</div>
+<div class="hidden md:flex flex-1 justify-end gap-10 items-center">
+<nav class="flex items-center gap-8">
+<a class="text-slate-700 dark:text-slate-300 text-sm font-medium hover:text-primary transition-colors" href="#gallery">Gallery</a>
+<a class="text-slate-700 dark:text-slate-300 text-sm font-medium hover:text-primary transition-colors" href="#about">Our Story</a>
+<a class="text-slate-700 dark:text-slate-300 text-sm font-medium hover:text-primary transition-colors" href="#services">Services</a>
+<a class="text-slate-700 dark:text-slate-300 text-sm font-medium hover:text-primary transition-colors" href="#contact">Contact</a>
+</nav>
+<button class="flex min-w-[120px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-11 px-6 bg-primary text-white text-sm font-bold hover:bg-primary/90 transition-all shadow-lg shadow-primary/20">
+<span>Order Now</span>
+</button>
+</div>
+<button class="md:hidden text-slate-900 dark:text-slate-100">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</header>
+<main class="flex flex-col flex-1">
+<!-- Hero Section -->
+<section class="px-4 lg:px-20 py-6">
+<div class="@container">
+<div class="flex min-h-[600px] flex-col gap-8 bg-cover bg-center bg-no-repeat rounded-xl items-center justify-center p-6 text-center relative overflow-hidden" data-alt="Moody dark floral arrangement with deep purple and burgundy blooms" style='background-image: linear-gradient(rgba(25, 16, 34, 0.6) 0%, rgba(25, 16, 34, 0.8) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuBpjtNVyiG0wYrMdrb8WDHh2uUfoIlIMLTa4SRgPH_pwuH6UuavJgWABCNIRSchcWI1UyTPY5X1VSbAqAWuifItED9RLA5fTlXLkUmF4-oO6tUasKyBeQJUJ3j1DVgUCIOO07xWLscvLBqjkU7LUrLDGN6Pb0BnlUCRmxrdlpup4DvM89TafgSzkVJPNl693AM60ODh6zwogPOaPtu7oN1t1P2oEXasJHNX8b03EETaZtFiegJRejSGnxsrirydg1sP8kecLwPPifA");'>
+<div class="flex flex-col gap-4 max-w-3xl z-10">
+<span class="text-primary font-bold tracking-[0.2em] uppercase text-sm">Tucson, Arizona</span>
+<h1 class="text-white text-5xl font-extrabold leading-tight tracking-tight lg:text-7xl">
+                                    Artful Blooms for the Soul
+                                </h1>
+<p class="text-slate-200 text-lg font-light leading-relaxed max-w-2xl mx-auto">
+                                    Soul-led floral design, intentional and ethereal arrangements crafted with earth-honoring precision in the heart of the desert.
+                                </p>
+</div>
+<div class="flex gap-4 z-10">
+<button class="flex min-w-[160px] cursor-pointer items-center justify-center rounded-full h-12 px-8 bg-primary text-white text-base font-bold hover:scale-105 transition-transform">
+                                    View Designs
+                                </button>
+<button class="flex min-w-[160px] cursor-pointer items-center justify-center rounded-full h-12 px-8 bg-white/10 backdrop-blur-md text-white border border-white/20 text-base font-bold hover:bg-white/20 transition-all">
+                                    Our Services
+                                </button>
+</div>
+</div>
+</div>
+</section>
+<!-- Featured Gallery -->
+<section class="px-4 lg:px-20 py-16" id="gallery">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
+<div class="flex flex-col gap-2">
+<h2 class="text-slate-900 dark:text-slate-100 text-3xl font-bold tracking-tight">Featured Designs</h2>
+<p class="text-slate-500 dark:text-slate-400">A curation of our most expressive organic arrangements.</p>
+</div>
+<a class="text-primary font-bold flex items-center gap-2 hover:underline" href="#">
+                            Explore full gallery <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<div class="group cursor-pointer flex flex-col gap-4">
+<div class="w-full bg-center bg-no-repeat aspect-[4/5] bg-cover rounded-xl transition-transform duration-500 group-hover:scale-[1.02] shadow-sm" data-alt="Delicate white and lilac organic floral bouquet" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAQLxcV8ht2JD7EZMHiOZCdROSFflC4Pa1fSkwK-u79LaThIKOkdH2spgIatxIC-qy_z3NJE8dyU5-qsZjfikjvwV0fLlb6AUtkwPHRyT0sITi8qSEM2grlg9HgLxof4e5cyKSRYWFjRr3EB9dh4E6Pd8J24yfc2cx1ro_65bP5E4VM32j7C7iGDfAU0rV_jm5GJOJEkkz6XgRUGDvDG_Jxy9ZA8g3H41h9ii-MeYKL9mR8E0nuxR4F2h5ljwuwIVT4ouAdxDijL0w");'></div>
+<div class="px-1">
+<h3 class="text-slate-900 dark:text-slate-100 font-bold">The Ethereal Mist</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm italic">Seasonal wild harvest</p>
+</div>
+</div>
+<div class="group cursor-pointer flex flex-col gap-4">
+<div class="w-full bg-center bg-no-repeat aspect-[4/5] bg-cover rounded-xl transition-transform duration-500 group-hover:scale-[1.02] shadow-sm" data-alt="Moody deep red and purple centerpiece" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBic3uW2gpChlwZC569cwLNMDzQKBClQq3aSKwH1FFhe7Xrj9YC0cHSEEnMFB2ENJ5U4OU_SrAwXhK7EIvNG8jsJe65j20TgvZ6vTx6B_no05PvYFQmq9fn8z7B0yB6WDEWJ8N3-TyOVdDLEr71HFljth9BYB_k5oQJYOLkgOtz8yr67W6kLtvxUTMAsYwb-gKC8ClpXYMqDxB-rhGQxSbmOL7ieC1I5-xx_FL7WpMyl_akU2oj7RXyunR11tHb8dF51ri-Ta0nebs");'></div>
+<div class="px-1">
+<h3 class="text-slate-900 dark:text-slate-100 font-bold">Midnight Bloom</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm italic">Structured sophistication</p>
+</div>
+</div>
+<div class="group cursor-pointer flex flex-col gap-4">
+<div class="w-full bg-center bg-no-repeat aspect-[4/5] bg-cover rounded-xl transition-transform duration-500 group-hover:scale-[1.02] shadow-sm" data-alt="Artful minimalist dried flower arrangement" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBOq1t0UmB8KZugTnkvsq2NwosihkjAJMx3xGO0IHerv4jYq6jmvzvzMG6rpmywjFZ4Wkx89c0kgBs9PZJb4h6Sv5mibfGjiS8_sbo_XiH97Ad2LrLK688hCHUXesZ1JCd0kt5Fc45RC9kkDj421b72L1-uWiQlABcMsmKzUY7RelpacJl5fwfpmctKvcmKqC4YM5HyfRXzQZ2gP4f3b09H-1DrVrYjHb6jv-uDPT50KYKnXZPJqIhcEkTndzF9vlxcqAG4Aku0iUc");'></div>
+<div class="px-1">
+<h3 class="text-slate-900 dark:text-slate-100 font-bold">Desert Whisper</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm italic">Earthy dried textures</p>
+</div>
+</div>
+<div class="group cursor-pointer flex flex-col gap-4">
+<div class="w-full bg-center bg-no-repeat aspect-[4/5] bg-cover rounded-xl transition-transform duration-500 group-hover:scale-[1.02] shadow-sm" data-alt="Vibrant spring artistic floral bouquet" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCCNYMnNYxkY6BbsC0olFH8CW11GbEn1kNFOChH7s5MUcEFurZ9VEra-keCILF_7Z-InHuE1zXpqKkn6Wt8tti6JPz-qg_m5Z_zlKfkyf-6V3u6bpUgVgrh5As2qREV2oqaQhVMnepuIdKkMy1gKRj0vniyY9GNxBSKa_KHy8ypJ1zBh5Ku54RnjQdRbmpysauxVh7MOG9_18nWhbIbr4bTg3yM7eBNW78EaTsH2elv6jfnkPE8AaaiR2ayRhNggJvOOlKaDNt4-7U");'></div>
+<div class="px-1">
+<h3 class="text-slate-900 dark:text-slate-100 font-bold">Sun-Kissed Spirit</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm italic">Radiant soul collection</p>
+</div>
+</div>
+</div>
+</section>
+<!-- About & Services -->
+<section class="bg-primary/5 dark:bg-primary/10 py-20 px-4 lg:px-20" id="about">
+<div class="max-w-6xl mx-auto flex flex-col lg:flex-row gap-16 items-center">
+<div class="flex-1 space-y-8">
+<div class="space-y-4">
+<h2 class="text-primary font-bold tracking-widest uppercase text-xs">Our Philosophy</h2>
+<h1 class="text-slate-900 dark:text-slate-100 text-4xl lg:text-5xl font-bold leading-tight">
+                                    Intentional &amp; Ethereal Creations
+                                </h1>
+<p class="text-slate-600 dark:text-slate-400 text-lg leading-relaxed">
+                                    Based in the soulful landscape of Tucson, AZ, Amethyst Floral Studio creates arrangements that honor the natural world. We believe every stem has a story and every petal a purpose. Our designs are a reflection of the desert's quiet strength and vibrant beauty.
+                                </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="p-6 bg-white dark:bg-background-dark rounded-xl border border-primary/10 hover:border-primary/30 transition-colors shadow-sm">
+<span class="material-symbols-outlined text-primary mb-4 text-3xl">auto_awesome</span>
+<h3 class="text-slate-900 dark:text-slate-100 font-bold mb-2">Soul-Led Design</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm">Artistic vision meets deep intention in every custom-crafted arrangement.</p>
+</div>
+<div class="p-6 bg-white dark:bg-background-dark rounded-xl border border-primary/10 hover:border-primary/30 transition-colors shadow-sm">
+<span class="material-symbols-outlined text-primary mb-4 text-3xl">local_shipping</span>
+<h3 class="text-slate-900 dark:text-slate-100 font-bold mb-2">Local Delivery</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm">Serving the greater Tucson area with white-glove delivery to your doorstep.</p>
+</div>
+<div class="p-6 bg-white dark:bg-background-dark rounded-xl border border-primary/10 hover:border-primary/30 transition-colors shadow-sm">
+<span class="material-symbols-outlined text-primary mb-4 text-3xl">palette</span>
+<h3 class="text-slate-900 dark:text-slate-100 font-bold mb-2">Artful Events</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm">Transformative floral installations for weddings and intimate gatherings.</p>
+</div>
+<div class="p-6 bg-white dark:bg-background-dark rounded-xl border border-primary/10 hover:border-primary/30 transition-colors shadow-sm">
+<span class="material-symbols-outlined text-primary mb-4 text-3xl">eco</span>
+<h3 class="text-slate-900 dark:text-slate-100 font-bold mb-2">Earth Centric</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm">Commitment to sustainable sourcing and honoring seasonal rhythms.</p>
+</div>
+</div>
+</div>
+<div class="flex-1 w-full relative">
+<div class="rounded-xl overflow-hidden shadow-2xl rotate-2 hover:rotate-0 transition-transform duration-700">
+<img class="w-full h-[600px] object-cover" data-alt="Florist working on a sophisticated arrangement in a bright studio" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAWIdbf2dV1L8Wwx7RpzykpBARWtrWZ5lLOPdCNNquFEiQLNwM7w4ygBGYJ1Xb-KtqF9696vt6LYFRHklXpZ5QPPiFa_qmwg6VxzmvG_BxgtjmNAVfWQ0S2fWHuNG928RnE9-F07HaNYrGEX1X9TaGn02YpOZOA_r7Fqd6dQ5inipIwzyKKf44QAEZkVHZP2Dy0JWk_EH1TYfQCRo5S6Dqa2Qc3_bUQ8a8c-6WmeIZvB8Dp12tBtmqJffGTq3JokckzhxVKyuyGtIM"/>
+</div>
+<div class="absolute -bottom-8 -left-8 bg-primary p-8 rounded-xl hidden lg:block">
+<p class="text-white font-bold text-3xl italic">Est. 2021</p>
+<p class="text-primary-foreground/80 text-white/70">Crafted in Tucson</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact & Inquiries -->
+<section class="px-4 lg:px-20 py-20" id="contact">
+<div class="max-w-4xl mx-auto bg-white dark:bg-background-dark rounded-xl overflow-hidden shadow-xl border border-primary/10 flex flex-col md:flex-row">
+<div class="md:w-1/3 bg-primary p-10 text-white flex flex-col justify-between">
+<div class="space-y-6">
+<h2 class="text-3xl font-bold">Let's Create</h2>
+<p class="text-white/80 font-light">Inquire about custom arrangements, delivery availability, or event collaborations.</p>
+</div>
+<div class="space-y-4">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-xl">location_on</span>
+<span class="text-sm">Tucson, Arizona</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-xl">mail</span>
+<span class="text-sm">hello@amethystfloral.com</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-xl">schedule</span>
+<span class="text-sm">Tue-Sat, 9am - 6pm</span>
+</div>
+</div>
+</div>
+<div class="md:w-2/3 p-10">
+<form class="space-y-6">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="flex flex-col gap-2">
+<label class="text-sm font-bold text-slate-700 dark:text-slate-300">Name</label>
+<input class="rounded-lg border-primary/20 bg-background-light dark:bg-background-dark focus:ring-primary focus:border-primary dark:text-white" placeholder="Your name" type="text"/>
+</div>
+<div class="flex flex-col gap-2">
+<label class="text-sm font-bold text-slate-700 dark:text-slate-300">Email</label>
+<input class="rounded-lg border-primary/20 bg-background-light dark:bg-background-dark focus:ring-primary focus:border-primary dark:text-white" placeholder="Email address" type="email"/>
+</div>
+</div>
+<div class="flex flex-col gap-2">
+<label class="text-sm font-bold text-slate-700 dark:text-slate-300">Inquiry Type</label>
+<select class="rounded-lg border-primary/20 bg-background-light dark:bg-background-dark focus:ring-primary focus:border-primary dark:text-white">
+<option>Custom Delivery Order</option>
+<option>Event Inquiry</option>
+<option>Wedding Quote</option>
+<option>Subscription Service</option>
+</select>
+</div>
+<div class="flex flex-col gap-2">
+<label class="text-sm font-bold text-slate-700 dark:text-slate-300">Message</label>
+<textarea class="rounded-lg border-primary/20 bg-background-light dark:bg-background-dark focus:ring-primary focus:border-primary dark:text-white" placeholder="Tell us about your vision..." rows="4"></textarea>
+</div>
+<button class="w-full bg-primary text-white font-bold py-3 rounded-lg hover:bg-primary/90 transition-colors shadow-lg shadow-primary/20" type="submit">
+                                    Send Inquiry
+                                </button>
+</form>
+</div>
+</div>
+</section>
+<!-- Map / Location Placeholder -->
+<section class="px-4 lg:px-20 pb-20">
+<div class="w-full h-80 rounded-xl overflow-hidden grayscale contrast-125 opacity-80 border border-primary/10">
+<img class="w-full h-full object-cover" data-alt="Stylized map showing Tucson area for floral delivery" data-location="Tucson, AZ" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDnvsV31THH3gZuIBcPyotXXq3BtmQkJRMeEDRrsL-4K-FJBvAIoEYezyH2cNCjoMFbrAgn5gXHk_7tFBghFAKxwEkivdppbjItEUYbXb1RCQSCLuK8T4xsmPOd2m-tp2KgPcwNquM99yB4MvPYvJ8Jg-kCuKFz14lo0SZR2EcnNyUKwXGfcjfhLzJhzWmOS7kAYoGD55bIE0Yr2mLoDKHTP2r5qwISylpBgwFSGqCHg1-cwz4AIgEJnWsr5Zil70yXQPQeJxcFTEE"/>
+</div>
+</section>
+</main>
+<footer class="bg-slate-900 text-white py-12 px-6 lg:px-20">
+<div class="flex flex-col md:flex-row justify-between items-center gap-8">
+<div class="flex items-center gap-3 text-primary">
+<span class="material-symbols-outlined text-3xl">filter_vintage</span>
+<h2 class="text-white text-xl font-bold tracking-tight uppercase">Amethyst Floral Studio</h2>
+</div>
+<div class="flex gap-8">
+<a class="hover:text-primary transition-colors" href="#">Instagram</a>
+<a class="hover:text-primary transition-colors" href="#">Pinterest</a>
+<a class="hover:text-primary transition-colors" href="#">Facebook</a>
+</div>
+<p class="text-slate-400 text-sm">© 2024 Amethyst Floral Studio. All rights reserved.</p>
+</div>
+</footer>
+</div>
+</div>
+</body></html>
